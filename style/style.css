@@ -14,6 +14,9 @@ p{
 a{
     text-decoration: none;
 }
+section{
+    margin: 50px 0;
+}
 .button{
     width: 200px;
     padding: 15px;
@@ -34,6 +37,7 @@ a{
     background-position: top center;
     position: relative;
     z-index: 1;
+    
 }
 #header::after{
     content: '';
@@ -68,3 +72,7 @@ a{
     color: #fff;
     margin: 15px 0;
 }
+#service .heading{
+    text-align: center;
+}
+
