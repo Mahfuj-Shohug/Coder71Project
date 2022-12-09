@@ -2,23 +2,25 @@
     text-align: center;
 }
 
-/* The popup form - hidden by default */
 .form-popup {
+    top: 50%;
     display: none;
-    position: fixed;
-    top: 0;
-    right: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
     z-index: 9;
   }
-  
-  /* Add styles to the form container */
+  .form-group label{
+    color: green;
+    font-weight: bold;
+
+  }
   .form-container {
     max-width: 500px;
-    padding: 10px;
+    padding: 20px;
     background-color: white;
   }
-  
-  /* Full-width input fields */
+
   .form-container input{
     width: 100%;
     padding: 15px;
@@ -26,14 +28,12 @@
     border: none;
     background: #f1f1f1;
   }
-  
-  /* When the inputs get focus, do something */
+ 
   .form-container input:focus{
     background-color: #ddd;
     outline: none;
   }
   
-  /* Set a style for the submit/login button */
   .form-container .btn {
     background-color: #04AA6D;
     color: white;
@@ -45,16 +45,49 @@
     opacity: 0.8;
   }
   
-  /* Add a red background color to the cancel button */
   .form-container .cancel {
-    color: red;
     position: absolute;
     top: 0;
     right: 0;
-    cursor: pointer;
+    margin: 5px;
+    color: red;
   }
   
-  /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+
+  #popup{
+    background-color: green;
+    display: none;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.popup p{
+  color: #fff;
+  font-size: 10px;
+}
+.popup a{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  color: rgb(255, 0, 0);
+}
+#myForm label{
+  float: left;
+}
+#myForm .error{
+  color: #fb0939;
+  font-size: 14px;
+}
+#myForm .success input {
+  border-color: #09c372;
+}
