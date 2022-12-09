@@ -57,7 +57,7 @@
     opacity: 1;
   }
 
-  #popup{
+  /* #popup{
     background-color: green;
     display: none;
     width: 300px;
@@ -80,7 +80,7 @@
   right: 0;
   margin: 5px;
   color: rgb(255, 0, 0);
-}
+} */
 #myForm label{
   float: left;
 }

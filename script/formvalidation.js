@@ -16,12 +16,20 @@ const setError = (element, message) => {
   inputControl.classList.remove('success')
 }
 const setSuccess = element => {
-  function checkform(){
-    if(document.getElementById("Name").value == Name && document.getElementById("Email").value == Email &&  document.getElementById("Phone").value == Phone ){
-        alert("Login Successful");
-        window.location = "http://www.google.com/";
-    }
-}
+  document.getElementById("form-popup").style.display = "none";
+  swal({
+    title: "Congratulations!!!!",
+    text: "You are Gain 10% off your first order",
+    icon: "success",
+    button: "Ok",
+    timer: 3000
+  })
+  setTimeout(function() {
+    location.reload(true);
+  }, 2000);
+  // location.reload(true);
+  //           tr.hide();
+  // localeStorage.clear();
 };
 const isValidEmail = Email => {
   const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -57,3 +65,4 @@ const validateInputs = () => {
   }
 
 };
+

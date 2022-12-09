@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coder 71 Test</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/formstyle.css">
@@ -38,19 +38,100 @@
                     </p>
                 </div>
                 <div class="col-md-3 col-sm-6 service-list">
-                    <img src="img/learning.png" alt="">
+                    <div class="div-img">
+                        <img src="img/learning.png" alt="">
+                    </div>
                     <h2>Web Design</h2>
                     <p>Beautiful, easy to use interfaces that drive sales, enquiries and conversions.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 col-sm-6 service-list">
+                    <div class="div-img">
+                        <img src="img/learning-1.png" alt="">
+                    </div>
+                    <h2>Web Development</h2>
+                    <p>We develop custom solutions that our clients rely on for their success.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 col-sm-6 service-list">
+                    <div class="div-img">
+                        <img src="img/learning-2.png" alt="">
+                    </div>
+                    <h2>E-Commerce</h2>
+                    <p>Expertise in Custom E-Commerce Development, Framework solutions.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 col-sm-6 service-list">
+                    <div class="div-img">
+                        <img src="img/learning-3.png" alt="">
+                    </div>
+                    <h2>CMS</h2>
+                    <p>Take back control of your website with solutions such as WordPress.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 col-sm-6 service-list">
+                    <div class="div-img">
+                        <img src="img/learning-4.png" alt="">
+                    </div>
+                    <h2>Mobile Apps</h2>
+                    <p>We develop iOS, Android and Windows phone solutions.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 col-sm-6 service-list">
+                    <div class="div-img">
+                        <img src="img/learning-5.png" alt="">
+                    </div>
+                    <h2>Digital Marketing</h2>
+                    <p>We build audiences through innovative SEO, PPC and Email Marketing.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 col-sm-6 service-list">
+                    <div class="div-img">
+                        <img src="img/learning-8.png" alt="">
+                    </div>
+                    <h2>Graphics Design</h2>
+                    <p>Our creative team build engaging graphics for your brand.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 col-sm-6 service-list">
+                    <div class="div-img">
+                        <img src="img/learning-9.png" alt="">
+                    </div>
+                    <h2>Domain Hosting</h2>
+                    <p>Domain registration, transfer, reliable and cheap hosting service.</p>
                     <a href="">Learn More</a>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about about-text col-md-6 col-sm-12">
+                    <h1>We are in business from last 10+ years</h1>
+                    <p>Coder71 Ltd. is an established web development company delivering web development services of any
+                        complexity to clients worldwide. Being in IT business for over some years now we have a strong
+                        team of skilled experienced IT experts. Our customers are companies of all sizes ranging from
+                        startups to large enterprises who realize that they need a professional internet solution to
+                        generate revenue streams, establish communication channels or streamline business operations.
+                    </p>
+                </div>
+                <div class="about about-img col-md-6 col-sm-12">
+                    <img src="img/best-design-dev.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-
+    <section id="our-work">
+        <div class="container">
+            <div class="row">
+                <div class="work col-md-12 col-sm-12">
+                    <h1>We work smartly with you</h1>
+                    <p>We can work together to build a smarter website.</p>
+                    <img src="img/development-cycle.png" alt="">
+                </div>
+            </div>
+        </div>
     </section>
     <section id="submit-form">
         <div class="form-popup" id="form-popup">
@@ -64,15 +145,18 @@
                     </p>
                 </div>
                 <div class="form-group">
-                    <label for="Name">Enter Your Name</label><p class="error"></p>
+                    <label for="Name">Enter Your Name</label>
+                    <p class="error"></p>
                     <input type="text" name="Name" id="Name" placeholder="Ex. Mahfuj">
                 </div>
                 <div class="form-group">
-                    <label for="Email">Enter Your Email</label><p class="error"></p>
+                    <label for="Email">Enter Your Email</label>
+                    <p class="error"></p>
                     <input type="email" name="Email" id="Email" placeholder="Ex. Mahfuj@gmail.com">
                 </div>
                 <div class="form-group">
-                    <label for="Phone">Enter Your Phone Number</label><p class="error"></p>
+                    <label for="Phone">Enter Your Phone Number</label>
+                    <p class="error"></p>
                     <input type="tel" name="Phone" id="Phone" placeholder="Ex. 01786-725669">
                 </div>
                 <input type="submit" value="submit" class="btn">
@@ -82,19 +166,72 @@
             </form>
         </div>
     </section>
-    
-        <div id="popup" class="popup">
-            <p>Thank you!!!
-            You are scrolling 200px in this Website</p>
-            <a href="" onclick="closeForm()">
-                <i class="cancel fa fa-times-circle" aria-hidden="true"></i>
-            </a>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container footer-cont">
+            <div class="row footer-row">
+                <div class="col-md-3 col-sm-6 footerdiv name">
+                    <h5>Coder 71 Ltd.</h5>
+                    <div class="language">
+                        <p class="lang">Language : <span class="span2">English (UK)</span></p>
+                    </div>
+                    <div class="footer-link">
+                        <a href="#">CAREERS</a>
+                        <a href="#">CONTACT</a>
+                        <a href="#">PRIVACY</a>
+                    </div>
+                    <div class="footer-icon">
+                        <div class="facebook">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><img src="img/web2.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 footerdiv info">
+                    <h6>Coder71 Ltd.</h6>
+                    <p>Jawad Tower, House# 74, Level# 7,<br> Flat#8A, Zoo Road , Block# D, Section# 2,<br>
+                        Mirpur, Dhaka-1216, Bangladesh</p>
+                    <div class="footer-contract">
+                        <a class="mail" href="mailto:kabbohelp@gmail.com">Mahfuj@gmail.com</a>
+                        <a class="tell" href="tel:+88 (0) 29292162">+88 (0) 29292162</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 footerdiv about">
+                    <h6>About Company</h6>
+                    <div>
+                        <a class="footer-link2" href="#">How it works</a>
+                        <a class="footer-link2" href="#">Development</a>
+                        <a class="footer-link2" href="#">Digital markeing</a>
+                        <a class="footer-link2" href="#">Services</a>
+                        <a class="footer-link2" href="#">Security</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 footerdiv loop">
+                    <h6>Stay In Loop</h6>
+                    <p>Subscribe to receive biweekly tips on creative automation and digital advertising!</p>
+                    <div class="footer-form">
+                        <form action="post">
+                            <div id="parentdiv">
+                                <input type="email" name="email" id="email" placeholder="What’s Your email">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-    <footer >
-       
+        <div class="copyright">
+            <p>&copy; 2022 All rights reserved Md. Mahfuj Hasan Shohug</p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="script/script.js"></script>
     <script src="script/formvalidation.js"></script>
 </body>

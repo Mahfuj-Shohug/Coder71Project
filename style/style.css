@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 h1{
     font-family: 'Bebas Neue', cursive;
 }
@@ -75,3 +76,198 @@ section{
 #service .heading{
     text-align: center;
 }
+.service-list .div-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.service-list{
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+}
+.service-list h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.service-list p{
+    font-size: 14px;
+}
+.service-list a{
+    border: 1px solid #ec1f27;
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #ec1f27;
+}
+.service-list a:hover{
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #000;
+}
+#about{
+    background-color: rgb(240, 240, 240);
+    max-height: fit-content;
+    padding: 80px 0;
+}
+.about-img img{
+    width: 500px;
+    height: 342px;
+}
+.about-text{
+    padding-left: 50px;
+}
+.about-img{
+    text-align: right;
+}
+#our-work{
+    text-align: center;
+}
+.work img{
+    height: fit-content;
+    width: 1000px;
+}
+
+.footerdiv {
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.734);
+}
+
+.name h5 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ec1f27;
+}
+
+.language {
+    display: inline-flex;
+    padding-top: 30px;
+}
+
+.language p {
+    font-size: 13px;
+}
+
+.language .span2 {
+    font-size: 13px;
+    color: #fea799;
+    padding-right: 5px;
+}
+
+.language .fa-caret-down {
+    font-size: 13px;
+    color: #fea799;
+}
+
+.social {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 3px 3px 4px 3px #e5e2e8;
+}
+
+.facebook {
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: #ec1f27;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ec1f27;
+    box-shadow: 3px 3px 4px 3px #e5e2e8;
+    border-radius: 50%;
+}
+
+.facebook .fa-facebook-f {
+    color: #fff !important;
+}
+
+.footer-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.footer-icon {
+    padding-top: 10px;
+}
+
+.footer-icon img {
+    height: 15px;
+    width: 12px;
+    padding-bottom: 3px;
+}
+
+.footer-icon .fa-brands {
+    color: #ec1f27;
+    height: 15px;
+    width: 15px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.footer-row h6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.footer-row p {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.footer-row a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info a {
+    display: block;
+}
+
+.tell {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #ec1f27 !important;
+}
+
+.about a {
+    display: block;
+}
+
+.footer-link2 {
+    padding-bottom: 10px;
+}
+
+.footer-form {
+    margin-top: 50px;
+}
+
+.footer-form {
+    margin-top: 50px;
+}
+
+.footer-form input {
+    padding: 10px;
+    background-color: #fff;
+    border: #fff;
+    box-shadow: 3px 3px 4px 3px #e5e2e8;
+}
+
+

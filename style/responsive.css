@@ -1,0 +1,9 @@
+@media screen and (max-width: 1090px){
+    .about-img img {
+        width: 370px;
+        height: 264px;
+    }
+    .work img {
+        width: 350px;
+    }
+}
