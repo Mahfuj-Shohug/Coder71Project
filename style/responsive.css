@@ -6,4 +6,19 @@
     .work img {
         width: 350px;
     }
+    #footer{
+        text-align: center;
+    }
+    .app-store{
+        text-align: center;
+    }
+    .app-store2{
+        text-align: center;
+    }
+    .app{
+        margin-top: 15px;
+    }
+    .fa-play{
+        left: 350px;
+    }
 }

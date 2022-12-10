@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 h1{
@@ -31,6 +32,9 @@ section{
 .button:hover{
     background-color: #ec1f27;
     border-color: #ec1f27;
+}
+.navbar-collapse{
+    margin-left: 45%;
 }
 #header{
     background-image: url('../img/banner.png');
@@ -131,7 +135,7 @@ section{
     width: 1000px;
 }
 
-.footerdiv {
+#footer {
     padding-top: 50px;
     background-color: rgba(0, 0, 0, 0.734);
 }
@@ -270,4 +274,28 @@ section{
     box-shadow: 3px 3px 4px 3px #e5e2e8;
 }
 
+.nav-item ul li a{
+    color: #fff;
+}
+.navbar {
+    padding-top: 10px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
 
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+    font-size: 15px;
+}
+.navbar-toggler {
+    outline: none !important;
+    color: #fff;
+}
+.copyright{
+    color: #fff;
+    font-size: 12px;
+}

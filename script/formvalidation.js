@@ -26,7 +26,7 @@ const setSuccess = element => {
   })
   setTimeout(function() {
     location.reload(true);
-  }, 2000);
+  }, 1000);
   // location.reload(true);
   //           tr.hide();
   // localeStorage.clear();
